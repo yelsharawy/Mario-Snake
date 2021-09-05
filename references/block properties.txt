@@ -1,0 +1,28 @@
+block ids (enum)
+0 - nothing
+1 - regular block - default
+2 - breakable
+3 - powerup block
+4 - coin block
+5 - star block
+6 - coin
+
+snake interactions (enum)
+0 - regular block - default
+1 - snake food
+2 - snake (internal, don't set to)
+
+block collisions (additive, bits)
+0 - collides with everything - default
+1 - doesn't collide on left
+2 - doesn't collide on bottom
+4 - doesn't collide on right
+8 - doesn't collide on top
+EX:
+Cloud Block - 7 (doesn't collide on bottom, left, or right)
+
+collision masks (additive, bits)
+0 - collides with everything
+1 - doesn't collide with mario
+2 - doesn't collide with snake
+4 - doesn't collide collide with enemies
